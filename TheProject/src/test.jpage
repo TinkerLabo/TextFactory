@@ -1,0 +1,110 @@
+kyPkg.uFile.resControl を型に解決できませんSystem.out.println("getTempDir:"+kyPkg.uFile.resControl.getTempDir());String line ="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXABCDEFG12345678-00111206    00000000020000000030.000アビタ　ナシゴレンの素　３０ｇ　";String line ="F 9556252210304=99992 10509-99999-     -     -     -      00000000-00111206    00000000020000000030.000アビタ　ナシゴレンの素　３０ｇ　";System.out.println(line.substring(58, 66)); System.out.println("test=>"+ kyPkg.uFile.ResControl.getUSERS_ITPBANKS_MERGE() + "F_Moon.txt"); System.out.println("test=>"+Converter.ValueChecker.isZERO("0000")); System.out.println("=>" + kyPkg.uFile.FileUtil_.getParent(kyPkg.uFile.ResControl.getCurrentPath(), true));System.out.println(">>"+kyPkg.uRegex.Regex.cnv2RegTerm("2013年03月01日～2013年03月31日"));System.out.println(">>"+kyPkg.uRegex.Regex.cnv2RegTerm("2013年03月01日_2013年03月31日"));System.out.println(">>"+kyPkg.uRegex.Regex.cnv2RegTerm("～"));System.out.println("test=>"+"List<String[]>".equals("List<String[]>")); System.out.println(String.format("dir/%1$04d/", 2016));for (int i = 1; i <= 64; i++) {	System.out.println("2を底とする「" + i + "」の対数は「" +qpr.ssAna.Calc.ModWLev.log2(i) + "」です。");}System.out.println("_この_トークン_を_削_除_してください___".replaceAll("_", "\t"));　System.out.println("test".indexOf("\t"));System.out.println("_この_トークン</td>を</td>削</td>除</td>してください</td></td>".replaceAll("</td>", "\t"));System.out.println("getItpDir:"+kyPkg.uFile.ResControlWeb.getWebCommonItpDir() );System.out.println("compareTo:"+"1".compareTo("0"));System.out.println("compareTo:"+"1".compareTo("A"));　java.util.regex.Pattern pat = java.util.regex.Pattern.compile(".*[\\[\\].*+].*");if(pat.matcher("aaa").matches()){	System.out.println("ok!");}else{	System.out.println("NG");}if("a　".matches("\\S*"))	System.out.println("ok!");if("0.456".matches("^([1-9]\\d*|0)(\\.\\d+)?$")){	System.out.println("ok!");}else{	System.out.println("NG");}System.out.println("=>"+"boo:and:foo:woo:::hey:::".split(":",-0).length); System.out.println("=>"+kyPkg.uFile.ResControl.getUserDir());System.out.println("Integer.MAX_VALUE=>"+Integer.MAX_VALUE);トークン ";" に構文エラーがあります。このトークンを削除してくださいSystem.out.println("debug=>"+"JAN_MK".substring(4) ); (明示的な戻り値がありません)StringBuffer buf = new StringBuffer();		buf.append("abcdefghijklm");		buf.delete(buf.length()-1,buf.length());		String startTime = "9:30";		String timeElm[] = startTime.split(":");		System.out.println("timeElm[0]:"+timeElm[0]);		String zapp = "1,2,3,,,";		String[] array = zapp.split(",",Integer.MAX_VALUE);		System.out.println("array.length:"+array.length);						String str = "ABCDEFG";		System.out.println("str.length:"+str.length());		System.out.println("DIS0006020100223184106STD.chk".matches("DIS00060\\d*STD\\.*.*"));		System.out.println("DIS0006020100223184106STD".matches("DIS00060\\d*STD\\.*.*"));		System.out.println("DIS0006020100223184106STD.".matches("DIS00060\\d*STD\\.*.*"));				//		System.out.println("ICONS ﾘﾎﾞﾝｶｯﾄｿ- LOVE ml".toUpperCase());		 		String val = "94";		java.text.DecimalFormat exFormat2 = new java.text.DecimalFormat("000000.000");		System.out.println(exFormat2.format(Integer.parseInt(val)));						String name = "Area9";		System.out.println(name.substring(name.length()-1));		System.out.println("xxx:"+kyPkg.uFile.FileUtil_.getFirstName("./Area3"));		System.out.println("ppath:"+kyPkg.uFile.FileUtil_.getParent("C:/Administrator.AGC/current.atm.zip"));		//pPath=normarizeIt(pPath);				for (int i = 2; i < 172; i++) {			System.out.println(i+",,,,	");			System.out.println("D,タブ	");		}			String ROOT = new java.io.File("./").getAbsolutePath();			if (ROOT.endsWith(".")) ROOT = ROOT.substring(0,ROOT.length()-1);			System.out.println(ROOT);			Date date1 = new Date();			Date date1 = new Date(1000000);			System.out.println(date1.compareTo(date2));			System.out.println("14".compareTo("4"));			System.out.println(kyPkg.util.DateUtil.getTimeStamp());			System.out.println(kyPkg.util.Channel.channelCnv2to3("1A"));						String sortParam = "2,int,asc,3,int,des";			sortParam = sortParam.toLowerCase();			String[] splited = sortParam.split(",");			int max = splited.length / 3;			for (int i = 0; i < max; i++) {				String sCol = splited[(i * 3) + 0].trim();				String sType = splited[(i * 3) + 1].trim();				String sOrder = splited[(i * 3) + 2].trim();				int whichCol = Integer.parseInt(sCol); // このカラムの値を比較対象とする				String fieldType = "String"; // デフォルトは文字列				int order = 1; // 1なら昇順、-1は降順				if (sType.startsWith("i")) {					fieldType = "integer"; //				} else if (sType.startsWith("d")) {					fieldType = "double"; //				}				if (sOrder.startsWith("d")) {					order = -1; // -1は降順				}				System.out.println("whichCol:" + whichCol + " fieldType:" + fieldType + " order:"+ order);			}									String userDir = kyPkg.uFile.FileUtil.getUserDir( );				System.out.println(kyPkg.uFile.ResControl.getQprDst());　			System.out.println(kyPkg.uFile.FileUtil.getDefaultCharset());			System.out.println(kyPkg.util.DateUtil.formatYMD("20091111"));			型 DateUtil のメソッド dateMap(String, String) は引数 (String, String, String) に適用できません。			kyPkg.util.DateUtil.dateMap("20070115","20091215","yy年MM月");			Runtime.getRuntime().exec("cmd /C  python.exe ./hello.py > abc.txt"); 			Runtime.getRuntime().exec("notepad");			Runtime.getRuntime().exec("calc");			Runtime.getRuntime().exec("cmd /C  java -version > c:\\saveit.txt");			Runtime.getRuntime().exec("D:/eclipse/workspace/QPRweb/test.bat");			Runtime.getRuntime().exec("command.com /C start python -version");String fullStr = "abc123あいうえお\n";for (int i = 0; i < fullStr.length(); i++) {	String wStr = fullStr.substring(i,i+1);	char wChr = wStr.charAt(0);	if ((wChr>=32)&&(wChr<=126)){		System.out.println("OK:"+wStr);	}else{		System.out.println("NG:"+wStr);	}}for (char i = 32; i <= 126; i++) {	System.out.println("i:"+i+" =>"+((int)i));}String[] JanArray = {"4902388057040","4902388057057"};
+String JanCodes = "(TRN.JanCode in(" + kyPkg.util.KUtil.join(JanArray,",","\'") +"))";
+System.out.println(JanCodes);
+int val = (256 *10000)+128;System.out.println(val);System.out.println(val/10000);System.out.println(val%10000);System.out.println(Integer.MAX_VALUE);System.out.println(kyPkg.util.DateUtil.lastDay()); 	System.out.println(java.nio.charset.Charset.defaultCharset()); 
+	String encode1 = (java.nio.charset.Charset.defaultCharset()).name();	String encode2 = (java.nio.charset.Charset.defaultCharset()).displayName();	System.out.println(encode1);
+	System.out.println(encode2);
+		java.util.HashMap hm = new java.util.HashMap();
+		hm.put("key1","Val1");
+		hm.put("key2","Val2");
+		hm.put("key3","Val3");
+		hm.put("key3","Val3XX");
+		hm.put("key4","Val4");
+		hm.put("key5","Val5");
+		hm.put("key6","Val6");
+		hm.put(null,"null");
+
+		System.out.println("size:"+hm.size());
+		System.out.println("containsKey(null):"+hm.containsKey(null));
+		hm.remove(null);
+
+		System.out.println("---------------------------------------------------");
+		java.util.Set set = hm.entrySet();  // 直接iteratorを呼べないので一旦SETを取得する
+		java.util.Iterator it = set.iterator();
+		while(it.hasNext()){
+		    java.util.Map.Entry ent = (java.util.Map.Entry)it.next();
+		    String key = (String)ent.getKey();
+		    String val = (String)ent.getValue();
+			System.out.println("key:"+key + "  val:"+val);
+		}
+		System.out.println("---------------------------------------------------");
+		System.out.println("get(\"key3\"):"+hm.get("key3"));
+		String xxx = "aaa";
+		String array[] = xxx.split("z");
+		System.out.println("array.length"+array.length);
+		System.out.println("array[0]:"+array[0]);
+
+		System.out.println("@today =>"+kyPkg.util.kUtil.getFiscalOld("19670401")) ;
+		System.out.println("@2008  =>"+kyPkg.util.kUtil.getFiscalOld(2008,"19670401")) ;
+
+ 		String regex="c:\\\\.*\\.txt";
+		regex = regex.replaceAll("\\\\", ">");
+		regex = regex.replaceAll(">\\.", "\\.");
+		regex = regex.replaceAll(">", "/");
+		regex = regex.replaceAll("\\.", "\\\\.");
+		System.out.println(regex);
+
+		regex = regex.replaceAll("\"", "\\\\\"");
+		regex = regex.replaceAll("\'", "\\\\\'");
+		regex = regex.replaceAll("\t", "\\\\t");
+		regex = regex.replaceAll("\\s", "\\\\s");
+		regex = regex.replaceAll("\\*", ".*");
+		
+		
+		regex = regex.replaceAll(">\\.", "\\\\.");
+		regex = regex.replaceAll(">\\s", "\\\\s");
+		regex = regex.replaceAll(">\\*", "\\\\*");
+
+		
+		String regex="c:\\*\\.txt";
+		regex = regex.replaceAll("\\\\", ">");
+		regex = regex.replaceAll(">\\.", "\\\\.");
+		
+
+
+		int keyInt = 10;		StringBuffer buff = new StringBuffer("\r\n{\"conversion\":{");
+		buff.append("\r\n\"decimal      \": \"" + Integer.toString(keyInt)				+ "\",");
+		buff.append("\r\n\"hexadecimal\": \"" + Integer.toString(keyInt, 16)				+ "\",");
+		buff.append("\r\n\"octal          \": \"" + Integer.toString(keyInt, 8)				+ "\",");
+		buff.append("\r\n\"hyper         \": \"&0x"				+ Integer.toString(keyInt, 16) + "\",");
+		buff.append("\r\n\"binary        \": \"" + Integer.toString(keyInt, 2)				+ "B\"");
+		buff.append("\r\n}}");
+		System.out.println(buff.toString() );
+		
+		String VV = ""+'\u000B';
+//		String VV = "\v";
+		String text = "hello"+VV+"CQ"+VV+"CQ"+VV+"CQ";
+		System.out.println(text);
+		String[] array = text.split(VV);
+		System.out.println("array.length:"+array.length);
+
+		System.out.println("\\@\\@\\@\\".replaceAll("\\\\","/"));
+		
+		System.out.println(System.getProperty("user.dir"));
+		
+		System.out.println("=>"+"1234567890".substring(0,20));
+		
+		System.out.println("=>"+qprweb.ResControl.getItpDir());
+		
+		String ans = kyPkg.util.KUtil.join("a/b/c/d/e".split("/"),"_",3,0);
+		System.out.println(ans);
+
+		String wCnl="698";
+		wCnl = kyPkg.util.EnqChk.regFix("698","\\s*[0-9]*",3);
+		System.out.println("wCnl:" + wCnl);
+		if (wCnl.equals("698"))	wCnl="608";	// その他屋内の自販機 
+		if (wCnl.equals("699"))	wCnl="609";	// その他屋外の自販機 
+		String wCn1 = wCnl.substring(0,1);	//　１桁目
+		String wCn2 = wCnl.substring(1,3);	//　残り２桁
+		String wCn3= kyPkg.util.EnqChk.xch(wCn2); 	// EX 09=>9 10=>A に変換
+		System.out.println("Channel:" + wCn1 + wCn3);
+		
+ 		String fileName ="qpr.txt";		String outPath="F:\\test\\zapp/";
+		String wPath="";
+		outPath= kyPkg.util.FileUtil.normarizeIt(outPath);
+		if (outPath.endsWith("/")){
+			wPath = outPath +  fileName;
+		}else{
+			wPath = outPath;
+		}
+		System.out.println(kyPkg.util.DateUtil.getTimeStamp(4, 0, "_") );		System.out.println(kyPkg.util.FileUtil.makeDir("c:\\frank\\zappa\\\\"));								java.util.List list = new java.util.ArrayList();		list.add("one");		System.out.println("list.size():"+list.size());		System.out.println("list.get(0):"+list.get(0));				

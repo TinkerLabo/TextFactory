@@ -1,0 +1,3 @@
+C:\workspace\TheProject\src\globals
+C:\workspace\TheProject\src\java
+C:\workspace\TheProject\src\kyPkg
